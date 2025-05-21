@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <form>
+            <input type="text" placeholder="firstname"/>
+            <br>
+            <br>
+            <input type="text" placeholder="lastname"/>
+            <br>
+            <br>
+            <input type="email" placeholder="enter email"/>
+            <br>
+            <br>
+            <input type="password" placeholder="enter password"/>
+            <br>
+            <br>
+            <input type="password" placeholder="confirm password"/>
+            <br>
+            <br>
+            <Fieldset>
+                <legend>Add comment</legend>
+                <textarea>Add your comments</textarea>
+            </Fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <!--Adding checkbox-->
+                <legend>Preferences</legend>
+                <label>
+                    <input type="checkbox"/> Subscribe to our newsletter
+                </label>
+                <br>
+                <br>
+                <!--Adding radio-->
+                <p>Gender:</p>
+                <label>
+                    <input type="radio" name="Gender" value="male"/>male
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="Gender" value="female"/>female
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="Gender" value="other"/>other
+                </label>
+                <br>
+                <br>
+                <!--Adding select dropdown-->
+                <label for="Country">Countries</label>
+                <select name="country" id="country">
+                    <option value="">---Your country---</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Tanzania">Tanzania</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="Uganda">Rwanda</option>
+                </select>
+           </fieldset>
+        </form>
+    </body>
+</html>
