@@ -1,2 +1,2 @@
 # HTML
-These are my HTML projects
+HyperText Markup Language
